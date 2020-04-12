@@ -1,0 +1,173 @@
+/***********************************************
+*
+*  Project Name: Login_Form
+*  Description : Resposive Login form.
+*  Version     : 1.0
+*  Author      : AMEUR AZZI .
+*  Author URI  : http://khamsat/user/azziameur
+*
+***********************************************/
+
+body {
+    background:url('../img/7.jpg');
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif   
+}
+.overlay {
+    background-color: rgba(63, 73, 83, 0.75);
+    background-size: cover
+}
+
+.header {
+    margin: 20px auto;
+    color: #fff
+}
+.header .logo {
+    cursor: pointer
+}
+h2 { margin-top: 10px }
+
+/* Start Login Page */
+
+.login {
+    background-color: #fff;
+    padding: 10px 20px
+}
+
+.login .form-control {
+    display: inline;
+    border-radius: 0;
+    margin-top: 15px;
+    width: 40%;
+}
+.login .btn-primary {
+    width: 18%;
+    border-radius: 0;
+    background-color: #0095ee;
+    border-color: #0095ee;
+}
+.login label {
+    margin-top: 5px
+}
+.icons p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #333
+}
+.icons div {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 20px;
+    transition:all 1s ease-in 0s 
+}
+.icons a:hover div  { transform: rotate(360deg) }
+.icons a:first-of-type  div { background-color:#3a5897 }
+.icons a:nth-of-type(2) div { background-color:#54abee }
+.icons a:nth-of-type(3) div { background-color:#0079b9 }
+.icons a:nth-of-type(4) div { background-color:#db4e40 }
+
+.icons .fa {
+    position: absolute;
+    left: 7px;
+    bottom: 11px;
+}
+.qst { 
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px
+}
+
+/* Start Register Page */
+
+.register-page { display: none }
+.register {
+    background-color: #fff;
+    padding: 10px 20px
+}
+
+.register .form-control {
+    border-radius: 0;
+    margin-top: 15px
+}
+.register input:first-of-type,
+.register input:nth-of-type(2) {
+    display: inline;
+    width: 49%
+}
+.register input:nth-of-type(2) {float: right}
+
+.register .btn {  
+    display: block;
+    margin: 15px auto;
+    background-color: #00af00;
+    border-color: #00af00;
+    color: #fff;
+    border-radius: 0;
+    padding: 12px;
+    margin-top: 15px;
+    width: 40%
+}
+
+/* Start Option Box */
+.option-box {
+	position: fixed;
+	top: 0 ;
+	left: 0;
+	z-index: 9999
+}
+.option-box .color-option {
+	float: left;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+	display: none
+}
+.option-box .color-option ul li {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 3px;
+	cursor: pointer
+}
+.option-box .bg {
+    height: 489px;
+    overflow-y: scroll;
+}
+.option-box .bg div {
+    background-size: cover;
+    width: 152px;
+    height: 120px;
+    margin-top: 15px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.option-box .gear-check {
+	padding: 5px;
+	color: #FFF;
+    background-color: #0095ee;
+	cursor: pointer
+}
+
+/* Start Option Box */
+
+/* Start Section Loading Overlay */
+
+.loading-overlay {
+	background: #222;
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999
+}
+/* End Section Loading Overlay */

@@ -1,0 +1,27 @@
+/* Mobile And Tablets  */
+@media (max-width: 767px) {
+    
+    .login .form-control,.login .btn-primary { width: 100% }
+    .login label,.login .btn-primary { margin-top: 15px }
+    .register input:nth-of-type(2) { float: none }
+    .register input:first-of-type,.register input:nth-of-type(2) {
+        width: 100%
+    }
+	
+}
+/* Small screen */
+@media (min-width: 768px) and (max-width:991px)
+{	
+
+
+}
+/* Medium Screen */
+@media (min-width: 992px) and (max-width:1199px)
+{
+	
+}
+/* Large Screen */
+@media (min-width: 1200px)
+{
+	
+}
